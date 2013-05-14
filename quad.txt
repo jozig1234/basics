@@ -5,8 +5,6 @@ a = int(raw_input("Enter the value of a"))
 b = int(raw_input("Enter the value of b"))
 c = int(raw_input("Enter the value of c"))
 
-
-
 #Finds two possible values for x
 answer = (-b + math.sqrt(b ** 2 - 4 * a * c)) / 2
 answer2 = (-b - math.sqrt(b ** 2 - 4 * a * c)) / 2
